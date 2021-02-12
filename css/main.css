@@ -125,7 +125,7 @@ header nav ul {
 .hero-area {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -133,6 +133,7 @@ aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -148,14 +149,15 @@ aside {
 .features {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
-.features-items {
+.features .features-items {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .fontawesome-icon {
@@ -171,7 +173,7 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 
 }
 
@@ -218,6 +220,12 @@ footer .social-icons {
 
 }
 
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 .copyright {
@@ -232,14 +240,22 @@ footer .social-icons {
 /* ======== About Page ============ */
 
 .mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 }
 
 .mission-content {
-
-}
-
-.map {
 
 }
 
@@ -247,9 +263,6 @@ footer .social-icons {
 
 }
 
-.chat {
-
-}
 
 
 
@@ -261,6 +274,20 @@ footer .social-icons {
 
 .faq-info {
 
+}
+
+.faq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
