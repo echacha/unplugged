@@ -87,6 +87,186 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   /* -------- Base Header and Footer -------- */
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
+   }
+
+/* ------- Header ----------- */
+
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* --------- Main area --------- */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.features-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+/* ------ Reviews area ------ */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.review-headline {
+}
+
+.article {
+
+}
+
+/* ------- Footer area ------- */
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+/* ======== About Page ============ */
+
+.mission {
+
+}
+
+.mission-content {
+
+}
+
+.map {
+
+}
+
+.general-info {
+
+}
+
+.chat {
+
+}
+
+
+
+/* ============= FAQ Page ============ */
+
+.faq-section {
+
+}
+
+.faq-info {
+
+}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
