@@ -95,9 +95,15 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
    }
 
+   header {
+     padding: 15px 0;
+   }
+
+  .content-wrapper {
+    width: 85%;
+  }
 /* ------- Header ----------- */
 
 
@@ -106,6 +112,7 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header nav {
@@ -113,11 +120,29 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
+  list-style: none;
+  margin: 
+}
+
+header nav ul li {
+  padding: 0 15px;
 }
 
 /* --------- Main area --------- */
@@ -137,20 +162,15 @@ aside {
 
 }
 
-.form-description {
-
-}
-
-.form {
-
-}
-
-
 .features {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
 
+}
+
+features p {
+  margin: 0;
 }
 
 .features .features-items {
@@ -160,11 +180,8 @@ aside {
   flex-flow: row wrap;
 }
 
-.fontawesome-icon {
-
-}
-
-.features-item-description {
+features .article {
+  width: 65%;
 
 }
 
@@ -177,10 +194,12 @@ aside {
 
 }
 
-.review-headline {
+.review h3 {
+  width: 55%;
 }
 
-.article {
+article {
+  width: 54%;
 
 }
 
@@ -192,11 +211,20 @@ aside {
   align-items: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
 
+}
+
+footer p {
+  margin: 0;
 }
 
 address {
@@ -226,8 +254,6 @@ footer .social-icons p {
   align-items: center;
 }
 
-
-
 .copyright {
   display: flex;
   justify-content: center;
@@ -253,28 +279,10 @@ footer .social-icons p {
   align-items: center;
   flex-flow: row wrap;
 }
-}
-
-.mission-content {
-
-}
-
-.general-info {
-
-}
-
 
 
 
 /* ============= FAQ Page ============ */
-
-.faq-section {
-
-}
-
-.faq-info {
-
-}
 
 .faq {
   display: flex;
